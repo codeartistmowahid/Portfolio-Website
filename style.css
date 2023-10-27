@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
@@ -15,7 +16,7 @@ nav{
     display: flex;
     width: 84%;
     margin: auto;
-    padding: 20px 0;
+    padding: 1px 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -23,13 +24,29 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 100px 20px;
+    margin: 50px 20px;
 }
 
 nav ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+
+#btn {
+    font-family: sans-serif;
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    color: aqua;
 }
 
 nav ul li a:hover{
@@ -53,6 +70,7 @@ span{
 
 .detail p{
     color: #555;
+    font-weight: bold;
     line-height: 22px;
 }
 
@@ -68,6 +86,22 @@ span{
 }
 
 .detail a:hover{
+    color: aqua;
+}
+
+.hireme{
+    background-color: white;
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.hireme:hover{
     color: aqua;
 }
 
